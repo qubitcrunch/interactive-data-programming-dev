@@ -1,6 +1,6 @@
 From a terminal run 
 
-`docker build -t idp_dev`
+`docker build -t idp_dev .`
 
 `docker run -v $(pwd):/src -p 8888:8888 idp_dev`
 
